@@ -7,6 +7,19 @@
 </head>
 <body>
     <h1>Olá, mundo!</h1>
-    <input>
+    <input> 
+    <button onclick="alerta()">aperte aqui</button>
+    
+    <script>
+        function alerta() {
+            const input = document.querySelector("input")
+            const valordoinput = input.value
+
+            alert(valordoinput)
+        }
+
+        
+    </script>
 </body>
+
 </html>
